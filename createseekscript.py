@@ -7,7 +7,7 @@ from collections import defaultdict
 pick_percent = 1.0
 threshold_seconds = 3 #ignore all below this threshold
 inorder = True
-infile = 'in/danride.mp4'
+infile = 'in/danride_short.mp4'
 finaloutfile = 'finalcut.mp4'
 tempfileprefix = 'temp/cut'
 concatinstructionsfile = 'concatinstruc.txt'

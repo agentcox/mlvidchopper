@@ -29,7 +29,7 @@ assert data["status"] == "COMPLETED", "JSON file not shown as completed."
 
 
 # Save
-filename = kwargs.get("save_as", f"{data['jobName']}.csv")
+filename = f"{data['jobName']}.csv"
 with open(filename, 'w', newline='') as csvfile:
 	csvwriter = csv.writer(csvfile)
 	csvwriter.writerow(["Time In", "Time Out", "Duration", "Speaker", "Content"])
